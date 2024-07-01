@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project created for training",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {"test": "npx playwright test login2.spec.ts --project=chromium --headed --ui"},
   "author": "adelstrinidad",
   "license": "MIT",
   "dependencies": {
